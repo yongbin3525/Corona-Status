@@ -16,6 +16,7 @@ function getData() {
 
 function init() {
     getData();
+    setInterval(getData, 1000);
 }
 
 init();
